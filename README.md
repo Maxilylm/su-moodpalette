@@ -2,7 +2,7 @@
 
 > Describe a mood, vibe, or scene in plain language and get a harmonious 6-color palette back.
 
-**[Live demo](https://su-moodpalette.vercel.app)**
+**[Live demo](https://moodpalette-mlx.vercel.app)**
 
 Picking colors for a project usually means scrolling through generic palette galleries that have no relationship to the feeling you are going for. MoodPalette takes a written description — "rainy Tokyo alleyway at 2am", "sun-bleached 70s postcard" — and asks Llama 3.3 for six colors with evocative names, hex codes, and a suggested role (background, surface, primary, secondary, accent, text). The API route validates the response so every palette has exactly six colors and well-formed hex values, replacing anything malformed before it reaches the UI.
 
@@ -33,4 +33,4 @@ Requires `GROQ_API_KEY` in `.env.local` — the key is read server-side in the `
 
 ---
 
-Part of a series of 91 small web apps. [Browse them all](https://su-slopmachine.vercel.app).
+Part of a series of 91 small web apps. [Browse them all](https://lorenzoylosada.vercel.app).
